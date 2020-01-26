@@ -30,11 +30,10 @@ function getClassesOfElement(element) {
     return array;
 }
 
-// ** 3
-
 let classes =  getClassesOfElement(id);
 console.log(classes);
 
+// ** 3
 let temp = document.getElementsByClassName("sample_class_2");
 
 let list = temp[0].getElementsByTagName("li");
@@ -52,7 +51,6 @@ let listText = getInnerTextsOfElements(list);
 console.log(listText);
 
 // **4
-
 
 let links = document.getElementsByTagName("a");
 
