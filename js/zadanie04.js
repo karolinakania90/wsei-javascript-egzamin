@@ -61,7 +61,7 @@ function getAddressesOfElements(elements) {
     for(i =0; i< elements.length; i++)
     {
         
-        array.push(elements[i].href);
+        array.push(elements[i].getAttribute("href"));
     }
     
     return array;
